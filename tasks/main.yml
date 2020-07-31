@@ -1,0 +1,12 @@
+---
+- name: signs in App Store
+  pause:
+    prompt: Press Command+C to quit now if you have not already signed in App Store
+    seconds: "{{ macos_pause }}"
+
+- name: installs mas-cli with Homebrew
+  homebrew:
+    name: "{{ macos_mas_package }}"
+
+- include_tasks: install.yml
+  loop: "{{ macos_appstore_apps }}"
