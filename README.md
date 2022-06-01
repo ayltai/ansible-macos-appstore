@@ -3,7 +3,7 @@
 [![GitHub workflow status](https://img.shields.io/github/workflow/status/ayltai/ansible-macos-appstore/CI?style=flat)](https://github.com/ayltai/ansible-macos-appstore/actions)
 [![Ansible quality score](https://img.shields.io/badge/quality-5-success)](https://galaxy.ansible.com/ayltai/macos_appstore)
 [![Ansible role](https://img.shields.io/badge/role-ayltai.macos_appstore-blue)](https://galaxy.ansible.com/ayltai/macos_appstore)
-![Maintenance](https://img.shields.io/maintenance/yes/2020?style=flat)
+![Maintenance](https://img.shields.io/maintenance/yes/2022?style=flat)
 [![Release](https://img.shields.io/github/release/ayltai/ansible-macos-appstore.svg?style=flat)](https://github.com/ayltai/ansible-macos-appstore/releases)
 [![License](https://img.shields.io/github/license/ayltai/ansible-macos-appstore.svg?style=flat)](https://github.com/ayltai/ansible-macos-appstore/blob/master/LICENSE)
 

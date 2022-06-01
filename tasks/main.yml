@@ -1,7 +1,7 @@
 ---
-- name: signs in App Store
-  pause:
-    prompt: Press Command+C to quit now if you have not already signed in App Store
+- name: signs in to App Store
+  ansible.builtin.pause:
+    prompt: Press Command+C to quit now if you have not already signed in to App Store
     seconds: "{{ macos_pause }}"
 
 - name: installs mas-cli with Homebrew
